@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f5;
+    color: #4b3530;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #f3c6c0;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #6b3e38;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b3530;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a94f5c;
+}
+
+
+/* ACCUEIL */
+
+.hero {
+    min-height: 500px;
+    padding: 60px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero div {
+    max-width: 500px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    width: 430px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+/* BOUTON */
+
+.button {
+    display: inline-block;
+    background-color: #a94f5c;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #7d3945;
+}
+
+
+/* MENU */
+
+#menu {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+#menu h2,
+#video h2,
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 18px 0 10px;
+}
+
+.card p {
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.card strong {
+    color: #a94f5c;
+}
+
+
+/* VIDEO */
+
+#video {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+
+/* CONTACT */
+
+.contact {
+    text-align: center;
+    background-color: #f3c6c0;
+    padding: 50px;
+}
+
+.contact p {
+    margin: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #6b3e38;
+    color: white;
+    padding: 20px;
+}
